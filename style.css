@@ -1,0 +1,145 @@
+@media only screen and (max-width: 800px) {
+    .navbarContainer {
+        flex-wrap: nowrap !important;
+    }
+
+    .location_para {
+        font-size: 2.2vw !important;
+    }
+
+    .mainFoodImage {
+        margin-top: 12px;
+    }
+
+    .borderRadiusMainImgContainer {
+        border-radius: 25%;
+    }
+
+    .top_pics_Cards_heading_fontSize {
+        font-size: 2.2vw !important;
+    }
+
+    .top_pics_Cards_para_fontSize {
+        font-size: 2.2vw !important;
+        width: 5.2rem;
+    }
+
+    .offerContainer {
+        flex-wrap: wrap;
+    }
+
+    .all_Resturants_Cards_heading_fontSize {
+        font-size: 3.2vw !important;
+    }
+
+    .all_Resturants_Cards_para_fontSize {
+        font-size: 2.2vw !important;
+        /* width: 5.2rem; */
+    }
+
+    .all_Resturants_Cards_img_Height {
+        height: 100% !important;
+    }
+}
+
+.hideScrollBar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hideScrollBar {
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+.offerCard {
+    width: 32rem;
+    margin: 12px !important;
+    border: 0px;
+}
+
+.offerCard:hover {
+    box-shadow: rgb(255, 255, 255) 0px 3px 8px;
+    transform: translateY(-6px);
+}
+
+.list-group-item {
+    border: 0px;
+}
+
+.imageWrapper {
+    object-fit: cover;
+}
+
+.imageWrapper img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+
+}
+
+.borderBottomGreyLight {
+    border-bottom: 2px solid gainsboro !important;
+}
+
+.headTopSection {
+    border-bottom: 2px solid gainsboro !important;
+}
+
+.borderRadius {
+    border: 2px solid #80808054 !important;
+    border-radius: 12px;
+}
+
+@media only screen and (min-width: 800px) {
+    .all_Rest_Card_Height {
+        height: 22vh;
+    }
+}
+
+
+.mainHeading {
+    font-size: 2.8vw !important;
+}
+
+.mainSubHeading {
+    font-size: 2.8vw !important;
+}
+
+.mainViewAllLink {
+    font-size: 2.8vw !important;
+}
+
+
+
+
+.footerCSS {
+    border-top: 2px solid gainsboro !important;
+}
+
+
+.topMargin {
+    margin-top: 8rem;
+}
+
+
+.boxShadows {
+    box-shadow: rgb(0 0 0 / 35%) 0px 2px 6px;
+}
+
+
+.footerLinksCSS {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+
+.iconContainer {
+    width: 22rem !important;
+}
+
+.iconContainer:hover {
+    background-color: darkgrey;
+}
